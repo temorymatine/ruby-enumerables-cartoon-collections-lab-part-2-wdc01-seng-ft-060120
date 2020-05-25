@@ -33,7 +33,7 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   
 
- planeteer_calls.any?{|a|  a = valid_calls.map{|n|n=n }}.first
+ puts planeteer_calls.any?{|a|  a = valid_calls.map{|n|n=n }}.first
 
  
  
