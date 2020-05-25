@@ -38,6 +38,6 @@ def find_valid_calls(planeteer_calls)
  count+=1 
  break
  end
- planeteer_calls
+ 
  
 end
