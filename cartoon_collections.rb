@@ -35,7 +35,9 @@ def find_valid_calls(planeteer_calls)
 
  array3=[]
  
- array3= planeteer_calls 
+ array3= planeteer_calls & valid_calls
+ 
+ puts array3
 
  
  
