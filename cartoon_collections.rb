@@ -33,7 +33,7 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   count = 0
 
- planeteer_calls.select{|values| values == valid_calls.any?}
+ planeteer_calls.select{"Earth!"}
  
  
  end
