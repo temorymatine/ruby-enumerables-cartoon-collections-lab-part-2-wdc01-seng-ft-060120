@@ -33,7 +33,7 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   
 
-puts  planeteer_calls.find{|a| a = valid_calls.any?{String}}
+  planeteer_calls.find{|a| a = valid_calls.any?{String}}.first
 
  
  
