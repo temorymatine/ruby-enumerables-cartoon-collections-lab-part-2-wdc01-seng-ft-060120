@@ -32,11 +32,10 @@ end
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   count = 0
-  while planeteer_calls.length > count do
-    
- puts planeteer_calls.select{|values| values == valid_calls[count]}
- count+=1 
- break
+
+puts  planeteer_calls.select{|values| values == valid_calls.any?(String)}
+ 
+ 
  end
  
  
