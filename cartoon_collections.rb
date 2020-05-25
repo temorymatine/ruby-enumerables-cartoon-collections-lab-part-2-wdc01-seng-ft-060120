@@ -33,8 +33,7 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   
 
-puts planeteer_calls.select{|n| n = n}.first 
-puts valid_calls.first
+puts planeteer_calls.select{|n| n = n}.first  == valid_Calls.first
  
  
  
