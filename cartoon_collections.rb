@@ -34,8 +34,9 @@ def find_valid_calls(planeteer_calls)
   count = 0
   while planeteer_calls.length > count do
     
- puts valid_calls.select{|values| values == planeteer_calls[count]}
- count+= 1
+ puts planeteer_calls.select{|values| values == valid_calls[count]}
+ count+=1 
  break
  end
+ 
 end
