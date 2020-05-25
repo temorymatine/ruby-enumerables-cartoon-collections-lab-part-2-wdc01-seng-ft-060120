@@ -33,7 +33,7 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   
 
-puts planeteer_calls.any?{|i| i == valid_calls}
+planeteer_calls.select
  
  
  end
