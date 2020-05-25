@@ -31,9 +31,9 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  count = 0
+  
 
- planeteer_calls.select{|word| word == "Earth!"}
+ planeteer_calls.filter_map{
  
  
  end
